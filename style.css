@@ -1,0 +1,93 @@
+
+#carousel{
+    width: 50%;
+    justify-content: center;
+}
+
+#productos{
+    border: 2px solid #3f3e3e;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    overflow: hidden;
+    background: #f6f7fd97;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.573);
+    cursor: default;
+    transition: all 400ms ease;    
+}
+
+#productos:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+    transform: translateY(-3%);
+}
+
+h1{
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style:normal;
+  font-size: 9rem;
+}
+
+h3{
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Centrar el carrusel */
+#carousel{
+    max-width: 800px; 
+    margin: 0 auto; 
+    position: relative; 
+}
+
+/* Estilo para las imagenes */
+.carousel-inner{
+    height: 400px; 
+}
+
+.carousel-item img{
+    height: 100%; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem; 
+    border-radius: 5px; 
+}
+h2{
+  padding: 20px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+#marcas{
+    border: 2px solid black;
+    width: 100%;
+    
+}
+    
+#rowMarcas{
+    text-align: center; 
+}
+
+#marcas{
+    max-width: 100%; 
+    height: auto; 
+}
+
+hr{
+    border-color: black;
+    border-width: 5px;
+}
+.redes{
+    transition: transform 0.2s; 
+}
+
+.redes:hover{
+    transform: scale(1.1); 
+}
